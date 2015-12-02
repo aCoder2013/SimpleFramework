@@ -35,3 +35,20 @@ This is a very simple Java Web Framework,here is a demo :
             }
         }
 ```
+And the interceptor just needs to implements Interceptor!
+```java
+        public class HelloInterceptor  implements Interceptor {
+        
+        
+            @Override
+            public void before(Method method, Object... args) {
+                System.out.println("Hello Interceptor Before");
+            }
+        
+            @Override
+            public void after(Method method, Object... args) {
+                System.out.println("Hello Interceptor After");
+            }
+        }
+
+```
