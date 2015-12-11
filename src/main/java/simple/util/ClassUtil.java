@@ -77,7 +77,7 @@ public class ClassUtil {
 
     /**
      * 处理JAR文件
-     * 将所有的.class文件提娜佳
+     * 将所有的.class文件添加到集合中
      * @param classHashSet
      * @param url
      * @throws IOException
